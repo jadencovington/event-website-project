@@ -1,3 +1,34 @@
-h1 {
-    color: red;
+.content {
+    height: 200vh;
+    background-image: url("https://assets.codepen.io/7596121/big+pool.jpeg");
+    background-color: #33;
+    background-blend-mode: multiply;
+    background-size: cover;
 }
+
+  .navigation {
+    background: var(--background);
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+  }
+  
+  .nav-toggle {
+    display: none;
+  }
+  
+  .nav-toggle-label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 1em;
+    height: 100%;
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav-toggle-label span {
+    color: black;
+    font-size: 1.5em;
+  }

@@ -32,3 +32,52 @@
     color: black;
     font-size: 1.5em;
   }
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+.container {
+  display: flex;
+  justify-content: center;
+  width: 1140px;
+}
+
+.card {
+  width: 559px;
+  margin: 5px;
+  height: 704px;
+}
+
+.card2 {
+  background-color:#FFEBAD;
+  width: 816px;
+  margin: 5px;
+  padding: 10px;
+  height: 684px;
+}
+
+h1 {
+  font-family: 'Palanquin Dark';
+  font-size: 48px;
+  line-height: 1.0em;
+  text-align: center;
+}
+
+body {
+  font-family: 'Montserrat';
+  font-size: 13px;
+  color: #0F2828;
+  line-height: 1.7em;
+}
+
+.button {
+    background-color: #FF4545;
+    padding: 1em 2em;
+    color: #FDFFFF;
+    border: 0;
+    outline: none;
+}
+
+.button:hover {
+    background-color: #FFC8C8;
+    color: black;
+}

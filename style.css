@@ -1,9 +1,7 @@
 .content {
     height: 200vh;
     background-image: url("https://assets.codepen.io/7596121/big+pool.jpeg");
-    background-color: #33;
-    background-blend-mode: multiply;
-    background-size: cover;
+    background-color: #FFEBAD;
 }
 
   .navigation {

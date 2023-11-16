@@ -1,81 +1,198 @@
-.content {
-    height: 200vh;
-    background-image: url("https://assets.codepen.io/7596121/big+pool.jpeg");
-    background-color: #FFEBAD;
+body {
+  margin: 0;
+  font-family: 'Palanquin Dark', sans-serif;
 }
 
-  .navigation {
-    background: var(--background);
-    text-align: center;
-    position: fixed;
-    width: 100%;
-    z-index: 999;
-  }
-  
-  .nav-toggle {
-    display: none;
-  }
-  
-  .nav-toggle-label {
-    position: absolute;
-    top: 0;
-    left: 0;
-    margin-left: 1em;
-    height: 100%;
-    display: flex;
-    align-items: center;
-  }
-  
-  .nav-toggle-label span {
-    color: black;
-    font-size: 1.5em;
-  }
+header {
+  background-color: #FFC91E;
+  padding: 12px 20px;
+}
 
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
-
-.container {
+.navbar {
   display: flex;
-  justify-content: center;
-  width: 1140px;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.card {
-  width: 559px;
-  margin: 5px;
-  height: 704px;
+.logo {
+  font-size: 36px;
+  font-weight: bold;
+  color: #0F2828;
 }
 
-.card2 {
-  background-color:#FFEBAD;
-  width: 816px;
-  margin: 5px;
-  padding: 10px;
-  height: 684px;
+.nav-links {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
 }
 
-h1 {
+.nav-links li {
+  margin-right: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #0F2828;
+  font-size: 20px;
+  font-weight: medium;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: #FDFFFF;
+  text-decoration: underline;
+}
+
+.hero {
+  position: relative;
+  height: 576px;
+  background-image: url("https://assets.codepen.io/7596121/hero-image+%281%29.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.hero-text {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  transform: translateY(-50%);
+  color: #FDFFFF;
+}
+
+.hero-title {
+  font-size: 54px;
+  font-weight: bold;
+}
+
+.hero-subtitle {
+  font-size: 24px;
+}
+
+.site-button {
+  background-color: #FF4545;
+  color: #FDFFFF;
+  font-size: 13px;
+  font-weight: bold;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.site-button:hover {
+  background-color: #BE3737;
+}
+
+h2 {
+  margin: 0;
   font-family: 'Palanquin Dark';
-  font-size: 48px;
-  line-height: 1.0em;
-  text-align: center;
 }
+
 
 body {
-  font-family: 'Montserrat';
-  font-size: 13px;
-  color: #0F2828;
-  line-height: 1.7em;
+  margin: 0;
+  font-family:'Montserrat', sans-serif;
 }
 
-.button {
-    background-color: #FF4545;
-    padding: 1em 2em;
-    color: #FDFFFF;
-    border: 0;
-    outline: none;
+.split-section {
+  display: flex;
 }
 
-.button:hover {
-    background-color: #FFC8C8;
-    color: black;
+.text-half {
+  width: 720px;
+  background-color: #FFEBAD;
+  padding: 40px;
+}
+
+.image-half {
+  width: 690px;
+  height: 100%;
+  background-image: url(https://assets.codepen.io/7596121/our-story-image+%283%29.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.text-content {
+  max-width: 600px;
+}
+
+.section-heading {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.body-copy {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.event-section {
+  display: flex;
+  position: relative;
+  width: 1440px;
+  height: 100vh;
+  margin: 24px;
+}
+
+.event-background-image {
+  background-image: url(https://assets.codepen.io/7596121/event-dates-image+%281%29.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 66.66%;
+  height: 100%;
+}
+
+.event-content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.event-day {
+  padding: 40px;
+  background-color: #FFF;
+}
+
+.event-heading {
+  font-size: 48px;
+  font-weight: bold;
+  font-family: 'Palanquin Dark';
+
+}
+
+.trivia-section {
+  position: relative;
+  width: 1440px;
+  height: 724px;
+  margin: 24px;
+}
+
+.trivia-background-image {
+  background-image: url("https://assets.codepen.io/7596121/science-trivia-image+%281%29.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+}
+
+.trivia-gradient-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right, #3C7392 0%, rgba(60, 115, 146, 0) 100%);
+  display: flex;
+  align-items: center;
+}
+
+.trivia-text-content {
+  width: 33.33%;
+  padding: 40px;
+  color: #FDFFFF;
+}
+
+.trivia-section-heading {
+  font-size: 48px;
+  font-weight: bold;
 }

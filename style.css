@@ -88,7 +88,6 @@ h2 {
   font-family: 'Palanquin Dark';
 }
 
-
 body {
   margin: 0;
   font-family:'Montserrat', sans-serif;
@@ -123,7 +122,7 @@ body {
 
 .body-copy {
   font-size: 16px;
-  line-height: 1.6;
+  line-height: 1.8;
 }
 
 .event-section {
@@ -195,4 +194,121 @@ body {
 .trivia-section-heading {
   font-size: 48px;
   font-weight: bold;
+}
+
+.map-section {
+  display: flex;
+  width: 100%;
+}
+
+.yellow-box {
+  background-color: #FFC91E;
+  width: 534px;
+  height: 704px;
+}
+
+.map-content {
+  padding: 40px;
+}
+
+.section-heading {
+  font-size: 48px;
+  font-weight: bold;
+  color: #0F2828;
+}
+
+.map-image {
+  flex: 2;
+  height: 704px;
+  background-image: url(https://assets.codepen.io/7596121/Map.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.site-footer {
+  background-color: #3C7392;
+  color: #FDFFFF;
+  height: 446px;
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.footer-column {
+  text-align: center;
+}
+
+.footer-heading {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.footer-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-list li {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.footer-social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-logo {
+  width: 48px;
+  height: 48px;
+  margin: 0 15px;
+}
+
+/* Style all font awesome icons */
+.fa {
+padding: 20px;
+font-size: 30px;
+width: 50px;
+text-align: center;
+text-decoration: none;
+}
+
+.fa:hover {
+opacity: 0.7;
+}
+
+/* Instagram */
+.fa-instagram {
+background: #3C7392;
+color: #FDFFFF;
+}
+
+/* Twitter */
+.fa-twitter {
+background: #3C7392;
+color: #FDFFFF;
+}
+
+/* Facebook */
+.fa-facebook {
+background: #3C7392;
+color: #FDFFFF;
+}
+
+/* Flickr */
+.fa-flickr {
+background: #3C7392;
+color: #FDFFFF;
 }

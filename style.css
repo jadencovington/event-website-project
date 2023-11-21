@@ -225,6 +225,29 @@ body {
   background-position: center;
 }
 
+.registration {
+  color: #0F2828;
+  margin-top: 80px;
+}
+
+.contact-title h1 {
+  font-size: 32px;
+  line-height: 10px;
+}
+
+.registration h1 {
+  font-size: 32px;
+  line-height: 10px;
+}
+
+form input {
+  padding: 5px;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #999;
+  border-left: 4px solid red;
+}
+
 .site-footer {
   background-color: #3C7392;
   color: #FDFFFF;

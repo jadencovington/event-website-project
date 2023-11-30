@@ -228,6 +228,7 @@ body {
 .registration {
   color: #0F2828;
   margin-top: 80px;
+
 }
 
 .contact-title h1 {
@@ -334,4 +335,41 @@ color: #FDFFFF;
 .fa-flickr {
 background: #3C7392;
 color: #FDFFFF;
+}
+
+.registration-heading {
+  font-size: 64px;
+  font-weight: bold;
+  margin-top: 70px;
+}
+
+.registration-body-copy {
+  font-size: 16px;
+  margin: 0 auto;
+  max-width: 918px;
+  margin-top: 70px;
+  margin-bottom: 109px;
+}
+
+.input-container {
+  margin: 0 auto;
+  max-width: 918px;
+  margin-bottom: 35px;
+  text-align: left;
+}
+
+.input-label {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 6px;
+}
+
+.input-box {
+  width: 918px;
+  height: 39px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  padding: 10px;
+  font-size: 16px;
 }

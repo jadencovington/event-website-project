@@ -373,3 +373,81 @@ color: #FDFFFF;
   padding: 10px;
   font-size: 16px;
 }
+
+body {
+  margin: 0;
+  font-family: 'Palanquin Dark', 'Montserrat', sans-serif;
+  background-color: #FFECAD;
+  color: #000;
+  text-align: center;
+}
+
+.registration-heading {
+  font-size: 64px;
+  font-weight: bold;
+  margin-top: 70px;
+}
+
+.registration-body-copy {
+  font-size: 16px;
+  margin: 0 auto;
+  max-width: 918px;
+  margin-top: 70px;
+  margin-bottom: 109px;
+}
+
+.input-container {
+  margin: 0 auto;
+  max-width: 918px;
+  margin-bottom: 35px;
+  text-align: left;
+}
+
+.input-label {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 6px;
+}
+
+.input-box {
+  width: 100%; /* Make input boxes full width on mobile */
+  box-sizing: border-box;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.get-tickets-button {
+  background-color: #FF0000;
+  color: #FFF;
+  font-size: 13px;
+  font-weight: bold;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 56px;
+}
+
+.get-tickets-button:hover {
+  background-color: #CC0000;
+}
+
+/* Media Query for screens smaller than 768px (typical tablets) */
+@media screen and (max-width: 768px) {
+  .registration-heading {
+      font-size: 48px;
+  }
+
+  .registration-body-copy {
+      font-size: 14px;
+  }
+
+  .input-label {
+      font-size: 12px;
+  }
+
+  .get-tickets-button {
+      font-size: 12px;
+  }
+}
+
+/* Your existing styles go here */

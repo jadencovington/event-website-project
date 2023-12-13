@@ -509,7 +509,9 @@ nav a:hover {
   font-size: 64px;
   font-weight: bold;
   margin-top: 70px;
-font-family: 'Palanquin Dark', sans-serif;
+  font-family: 'Palanquin Dark', sans-serif;
+  align-items: center;
+  justify-content: center;
 }
 
 .registration-body-copy {
@@ -569,3 +571,92 @@ font-family: 'Palanquin Dark', sans-serif;
 }
 }
 
+.speakers-heading {
+  font-size: 64px;
+  font-weight: bold;
+  margin-top: 56px;
+}
+
+.speaker-box {
+  display: inline-block;
+  vertical-align: top;
+  margin: 0 20px;
+}
+
+.speaker-image {
+  width: 373px;
+  height: 278px;
+  background-image: url("https://assets.codepen.io/7596121/sly-lee-image.jpg");
+  background-color: #DDD; /* Placeholder color */
+}
+
+.speaker-image2 {
+  width: 373px;
+  height: 278px;
+ background-image: url("https://assets.codepen.io/7596121/michael-lombardi-image.jpg");
+  background-color: #DDD; /* Placeholder color */
+}
+
+.speaker-image3 {
+  width: 373px;
+  height: 278px;
+ background-image: url("https://assets.codepen.io/7596121/janis-jones-image.jpg");
+  background-color: #DDD; /* Placeholder color */
+}
+
+.speaker-image4 {
+  width: 373px;
+  height: 278px;
+ background-image: url("https://assets.codepen.io/7596121/danni-washington-image.jpg");
+  background-color: #DDD; /* Placeholder color */
+}
+
+.speaker-image5 {
+  width: 373px;
+  height: 278px;
+background-image: url("https://assets.codepen.io/7596121/tundi-agardy-image+%281%29.jpg");
+  background-color: #DDD; /* Placeholder color */
+}
+
+.speaker-image6 {
+  width: 373px;
+  height: 278px;
+background-image: url("https://assets.codepen.io/7596121/douglas-mccauley-image+%281%29.jpg");
+  background-color: #DDD; /* Placeholder color */
+}
+
+.speaker-details {
+  background-color: #FFC91E;
+  width: 373px;
+  height: 206px;
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: left;
+}
+
+.speaker-name {
+  font-size: 32px;
+  font-weight: bolder;
+  color: #0F2828;
+  margin: 0;
+}
+
+.speaker-title {
+  font-size: 20px;
+  font-weight: bold;
+  color: #0F2828;
+  margin: 10px 0;
+}
+
+.speaker-description {
+  font-size: 16px;
+  color: #0F2828;
+  margin: 0;
+}
+
+/* Media Query for responsiveness */
+@media screen and (max-width: 768px) {
+  .speaker-box {
+      margin: 0 10px;
+  }
+}

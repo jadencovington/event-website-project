@@ -203,7 +203,6 @@ nav a:hover {
 
 .right-half {
   width: 690px;
-  /* Add any additional styling for the right half here */
 }
 
 .text-section {
@@ -251,12 +250,10 @@ nav a:hover {
   }
 }
 
-/* ... (existing styles) ... */
-
 .event-section {
   background-color: #FFFFFF;
   padding: 50px 0;
-  margin-top: 34px; /* Adjusted margin to be 34px below the previous section */
+  margin-top: 34px; 
 }
 
 .event-content {
@@ -347,7 +344,6 @@ nav a:hover {
 .map-image {
     flex: 2;
     height: 704px;
-    /* Set the background image for the map */
     background-image: url(https://assets.codepen.io/7596121/Map.jpg);
     background-size: cover;
     background-position: center;
@@ -356,30 +352,30 @@ nav a:hover {
 /* Media query for mobile screens */
 @media screen and (max-width: 767px) {
   .map-section {
-    flex-direction: column; /* Stack elements vertically on mobile screens */
+    flex-direction: column; 
   }
 
   .yellow-box {
-    width: 100%; /* Full width on mobile screens */
-    height: auto; /* Adjusted height for mobile screens */
+    width: 100%; 
+    height: auto;
   }
 
   .map-content {
-    padding: 20px; /* Adjusted padding for mobile screens */
+    padding: 20px;
   }
 
   .section-heading {
-    font-size: 36px; /* Adjusted font size for mobile screens */
+    font-size: 36px; 
   }
 
   .body-copy {
-    font-size: 14px; /* Adjusted font size for mobile screens */
+    font-size: 14px; 
   }
 
   .map-image {
     flex: 1;
-    width: 100%; /* Full width on mobile screens */
-    height: 200px; /* Adjusted height for mobile screens */
+    width: 100%;
+    height: 200px; 
   }
 }
 
@@ -434,7 +430,6 @@ nav a:hover {
     margin: 0 15px;
 }
 
-/* Style all font awesome icons */
 .fa {
   padding: 20px;
   font-size: 30px;
@@ -474,12 +469,12 @@ nav a:hover {
 /* Media query for mobile screens */
 @media screen and (max-width: 767px) {
   .site-footer {
-    height: auto; /* Adjusted height for mobile screens */
+    height: auto; 
     padding: 20px;
   }
 
   .footer-top {
-    flex-direction: column; /* Stack columns vertically on mobile screens */
+    flex-direction: column;
     align-items: center;
   }
 
@@ -499,11 +494,8 @@ nav a:hover {
   .footer-social {
     justify-content: center;
     align-items: center;
-    margin-top: 20px; /* Add spacing between the content and social icons */
-  }
+    margin-top: 20px; 
 }
-
-
 
 .registration-heading {
   font-size: 64px;
@@ -587,42 +579,42 @@ nav a:hover {
   width: 373px;
   height: 278px;
   background-image: url("https://assets.codepen.io/7596121/sly-lee-image.jpg");
-  background-color: #DDD; /* Placeholder color */
+  background-color: #DDD;
 }
 
 .speaker-image2 {
   width: 373px;
   height: 278px;
  background-image: url("https://assets.codepen.io/7596121/michael-lombardi-image.jpg");
-  background-color: #DDD; /* Placeholder color */
+  background-color: #DDD; 
 }
 
 .speaker-image3 {
   width: 373px;
   height: 278px;
  background-image: url("https://assets.codepen.io/7596121/janis-jones-image.jpg");
-  background-color: #DDD; /* Placeholder color */
+  background-color: #DDD;
 }
 
 .speaker-image4 {
   width: 373px;
   height: 278px;
  background-image: url("https://assets.codepen.io/7596121/danni-washington-image.jpg");
-  background-color: #DDD; /* Placeholder color */
+  background-color: #DDD; 
 }
 
 .speaker-image5 {
   width: 373px;
   height: 278px;
 background-image: url("https://assets.codepen.io/7596121/tundi-agardy-image+%281%29.jpg");
-  background-color: #DDD; /* Placeholder color */
+  background-color: #DDD;
 }
 
 .speaker-image6 {
   width: 373px;
   height: 278px;
 background-image: url("https://assets.codepen.io/7596121/douglas-mccauley-image+%281%29.jpg");
-  background-color: #DDD; /* Placeholder color */
+  background-color: #DDD; 
 }
 
 .speaker-details {
@@ -655,8 +647,7 @@ background-image: url("https://assets.codepen.io/7596121/douglas-mccauley-image+
 }
 
 /* Media Query for responsiveness */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) 
   .speaker-box {
       margin: 0 10px;
   }
-}
